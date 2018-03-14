@@ -51,9 +51,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ai_paddle.cs" />
      <Compile Include="Assets\Scripts\ball.cs" />
+     <Compile Include="Assets\Scripts\continue_playing_music.cs" />
+     <Compile Include="Assets\Scripts\loadScene.cs" />
      <Compile Include="Assets\Scripts\move_paddle.cs" />
      <Compile Include="Assets\Scripts\SoundManager.cs" />
+     <Compile Include="Assets\Scripts\splashScreene.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

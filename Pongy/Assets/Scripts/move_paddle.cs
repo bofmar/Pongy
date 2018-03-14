@@ -5,11 +5,12 @@ using UnityEngine;
 public class move_paddle : MonoBehaviour {
 
     public float speed = 30;
+    public string axis = "Vertical";
 
     void FixedUpdate()
     {
 
-        float vertPress = Input.GetAxisRaw("Vertical");
+        float vertPress = Input.GetAxisRaw(axis);
 
         GetComponent<Rigidbody2D>().velocity = new Vector2(0, vertPress) * speed;
 
