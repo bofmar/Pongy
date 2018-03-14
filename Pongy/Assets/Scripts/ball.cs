@@ -51,12 +51,12 @@ public class ball : MonoBehaviour {
 
             if(col.gameObject.name == "goal_right")
             {
-                IncreaseTextUIScore("RightScoreUI");
+                IncreaseTextUIScore("LeftScoreUI");
             }
 
             if(col.gameObject.name == "goal_left")
             {
-                IncreaseTextUIScore("LeftScoreUI");
+                IncreaseTextUIScore("RightScoreUI");
             }
 
             transform.position = new Vector2(0, 0);

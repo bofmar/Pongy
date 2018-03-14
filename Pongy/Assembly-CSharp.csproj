@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\ai_paddle.cs" />
      <Compile Include="Assets\Scripts\ball.cs" />
      <Compile Include="Assets\Scripts\continue_playing_music.cs" />
+     <Compile Include="Assets\Scripts\Exit.cs" />
      <Compile Include="Assets\Scripts\loadScene.cs" />
      <Compile Include="Assets\Scripts\move_paddle.cs" />
      <Compile Include="Assets\Scripts\SoundManager.cs" />
